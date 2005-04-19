@@ -1,0 +1,110 @@
+% Scoresheet for Kniffel (also known as Yahtzee)
+%
+% Author: Volker Grabsch <vog@notjusthosting.com>
+% This document is public domain.
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{german}
+\usepackage{lscape}
+
+\oddsidemargin -0.4in
+\topmargin -0.35in
+\headheight 0in
+\headsep 0in
+\textwidth 8in
+\textheight 11in
+\pagestyle{empty}
+
+\newcommand{\cellwidth}{16pt}
+\newcommand{\tabline}[1]{
+	{#1}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+	& \hspace{\cellwidth}
+\\}
+
+\begin{document}
+\begin{landscape}
+\LARGE{
+\begin{tabular}{||c||l|l|l|l|l|l||l|l|l|l|l|l||l|l|l|l|l|l||l|l|l|l|l|l||}
+\hline
+\hline
+	\parbox{1.4in}{\[\kappa_{ni}\int\mathcal{F}\ni 1\]}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	\\
+\hline
+\hline
+\tabline{1}
+\hline
+\tabline{2}
+\hline
+\tabline{3}
+\hline
+\tabline{4}
+\hline
+\tabline{5}
+\hline
+\tabline{6}
+\hline
+\hline
+\tabline{\textbf{Summe}}
+\hline
+\tabline{+35}
+\hline
+\hline
+\tabline{\textbf{Summe}}
+\hline
+\tabline{3P}
+\hline
+\tabline{4P}
+\hline
+\tabline{VH}
+\hline
+\tabline{kl. Str}
+\hline
+\tabline{gr. Str}
+\hline
+\tabline{Kniffel}
+\hline
+\tabline{Chance}
+\hline
+\hline
+\tabline{}
+\cline{2-25}
+	\textbf{Summe}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	& \multicolumn{6}{c||}{}
+	\\
+\hline
+\hline
+\end{tabular}
+}
+\end{landscape}
+\end{document}
