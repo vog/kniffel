@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+
+rm -f kniffel.aux kniffel.log kniffel.pdf
+pdflatex kniffel.tex
+rm -f kniffel.aux kniffel.log
+gm convert -rotate 90 -density 30 kniffel.pdf kniffel.png
